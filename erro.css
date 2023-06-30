@@ -1,5 +1,5 @@
-*{
-    margin: 0;
+html{
+    overflow: hidden;
 }
 body{
     width: 100vw;
@@ -13,10 +13,12 @@ body{
 }
 h1{
     font-size: 70px;
+    margin: 0;
 }
 h2{
+    margin-top: 0;
     font-size: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 h1, h2{
     color: white;
@@ -26,6 +28,7 @@ p{
     color: white;
     font-size:20px;
     text-align: center;
+    margin: 0 20px;
 }
 img{
     position: absolute;

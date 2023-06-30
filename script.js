@@ -25,6 +25,11 @@ no.addEventListener('click', ()=>{
                         no.style.top = Math.random() * height + 'px'
                         no.style.left = Math.random() * width + 'px'
                     })
+                    no.addEventListener('touchstart', ()=>{
+                        no.style.position = 'absolute'
+                        no.style.top = Math.random() * height + 'px'
+                        no.style.left = Math.random() * width + 'px'
+                    })
                 })
             })
         })
