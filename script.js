@@ -15,7 +15,12 @@ no.addEventListener('click', ()=>{
                 text.innerText = "Última chance"
                 no.addEventListener('click', ()=>{
                     text.innerText = "Você quer ficar comigo?"
-                    no.addEventListener('mouseover', ()=>{
+                    no.addEventListener('mouseenter', ()=>{
+                        no.style.position = 'absolute'
+                        no.style.top = Math.random() * height + 'px'
+                        no.style.left = Math.random() * width + 'px'
+                    })
+                    no.addEventListener('click', ()=>{
                         no.style.position = 'absolute'
                         no.style.top = Math.random() * height + 'px'
                         no.style.left = Math.random() * width + 'px'
@@ -28,6 +33,7 @@ no.addEventListener('click', ()=>{
 
 yes.addEventListener("click", ()=>{
     container.style.display = 'none'
+    text.style.justifyContent = "center"
     text.innerText = "..."
     let textos = ["Eu nunca cheguei nessa parte", "O que faço agora?", '...']
     let x = 0
