@@ -12,6 +12,3 @@ Insira um gif ou um link de alguma demonstração
 ## Autores
 
 - [@Intern-Yago](https://www.github.com/Intern-Yago)
-
-
-"# irrecusavel" 

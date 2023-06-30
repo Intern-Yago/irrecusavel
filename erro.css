@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #191919;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+h1, h2{
+    color: white;
+    font-weight: bolder;
+}
+p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+img{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 25px;
+    height: 25px;
+    color: white;
+    fill: white;
+    stroke: white;
+    cursor: pointer;
+}
